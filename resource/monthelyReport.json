@@ -1,0 +1,77 @@
+[
+  {
+    "date": "Fri Jan 08 2021",
+    "employees": [
+      {
+        "code": 121212,
+        "name": "Mohamed",
+        "attendsCount": 22,
+        "absentCount": 3,
+        "excuseCount": 2
+      },
+      {
+        "code": 101010,
+        "name": "dina",
+        "attendsCount": 24,
+        "absentCount": 1,
+        "excuseCount": 1
+      },
+      {
+        "code": 111111,
+        "name": "Tomas",
+        "attendsCount": 23,
+        "absentCount": 2,
+        "excuseCount": 1
+      },
+      {
+        "code": 954984,
+        "name": "Aya",
+        "attendsCount": 20,
+        "absentCount": 5,
+        "excuseCount": 6
+      },
+      {
+        "code": 536832,
+        "name": "Esraa",
+        "attendsCount": 21,
+        "absentCount": 4,
+        "excuseCount": 3
+      },
+      {
+        "code": 470599,
+        "name": "jony",
+        "attendsCount": 20,
+        "absentCount": 4,
+        "excuseCount": 2
+      },
+      {
+        "code": 665029,
+        "name": "Nada",
+        "attendsCount": 20,
+        "absentCount": 4,
+        "excuseCount": 2
+      },
+      {
+        "code": 204228,
+        "name": "Molan",
+        "attendsCount": 19,
+        "absentCount": 6,
+        "excuseCount": 5
+      },
+      {
+        "code": 455330,
+        "name": "Ted",
+        "attendsCount": 20,
+        "absentCount": 5,
+        "excuseCount": 3
+      },
+      {
+        "code": 216174,
+        "name": "Serag",
+        "attendsCount": 20,
+        "absentCount": 5,
+        "excuseCount": 8
+      }
+    ]
+  }
+]

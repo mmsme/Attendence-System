@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+    <!-- bootstrap style css cdn -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="fonts/fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet" />
+    <!-- sb admin 2 style css cdn -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-sb-admin-2/4.1.3/css/sb-admin-2.min.css"
+        integrity="sha512-RIG2KoKRs0GLkvl0goS0cdkTgQ3mOiF/jupXuBsMvyB3ITFpTJLnBu59eE+0R39bxDQKo2dsatA5CwHeIKVFcw=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/homeStyle.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Login Form -->
+        <div class="row justify-content-center">
+
+            <div class="col-xl-10 col-lg-12 col-md-9 p-3" id="login-container">
+
+                <div class="card o-hidden border-0 shadow-lg my-5">
+                    <div class="card-body p-0">
+                        <!-- Nested Row within Card Body -->
+                        <div class="row shadow">
+                            <!-- img section -->
+                            <div class="col-lg-6 d-none d-lg-block">
+                                <img id="login-img" src="imgs/undraw_Login_re_4vu2.svg" class="img-fluid" alt="image">
+                            </div>
+                            <!-- from section -->
+                            <div class="col-lg-6">
+                                <div class="p-5">
+                                    <!-- title -->
+                                    <div class="text-center">
+                                        <h1 class="h3 text-gray-900 mb-4">Welcome Back!</h1>
+                                    </div>
+                                    <!-- from  -->
+                                    <form class="user" novalidate="" action="" method="" id="loginForm">
+                                        <!-- Email -->
+                                        <div class="form-group">
+                                            <input type="text" class="form-control form-control-user" id="loginEmail"
+                                                aria-describedby="emailHelp" pattern="^[a-zA-Z]{2}[a-zA-Z0-9]+$"
+                                                placeholder="Username..." maxlength="50" required>
+
+                                            <div class="valid-feedback">Valid</div>
+                                            <div class="invalid-feedback">Invalid</div>
+                                        </div>
+                                        <!-- password -->
+                                        <div class="form-group">
+                                            <input type="password" class="form-control form-control-user"
+                                                id="loginPassword" placeholder="Password" minlength="8" maxlength="30"
+                                                required>
+                                            <div class="valid-feedback">Valid</div>
+                                            <div class="invalid-feedback">Invalid Password</div>
+                                        </div>
+
+                                        <!-- submit button -->
+                                        <button id="loginSubmit" type="submit"
+                                            class="btn btn-user btn-block btn-warning">Login</button>
+                                        <hr>
+                                    </form>
+                                    <div class="text-center">
+                                        <a id="loginLink" class="small btn btn-link">Create an Account!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Register Form -->
+            <div class="card o-hidden border-0 shadow-lg my-5" id="register-container">
+                <div class="card-body p-0">
+                    <!-- Nested Row within Card Body -->
+                    <div class="row">
+                        <div class="col-lg-5 d-none d-lg-block">
+                            <img id="register-img" src="imgs/undraw_Work_chat_re_qes4.svg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="p-5">
+                                <!-- Title  -->
+                                <div class="text-center">
+                                    <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
+                                </div>
+                                <!-- form -->
+                                <form class="user" novalidate="" action="" method="" id="registerForm">
+                                    <!-- Uername and Password Group -->
+                                    <div class="form-group row">
+                                        <div class="col-sm-6 mb-3 mb-sm-0">
+                                            <input type="text" class="form-control form-control-user"
+                                                id="registerUsername" placeholder="UserName" minlength="3"
+                                                maxlength="30" pattern="^[a-zA-Z]{2}[a-zA-Z0-9]+$" required>
+                                            <div class="valid-feedback">Valid</div>
+                                            <div class="invalid-feedback">Invalid</div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <input type="password" class="form-control form-control-user"
+                                                id="registerPassword" placeholder="Password" minlength="8"
+                                                maxlength="30" required>
+                                            <div class="valid-feedback">Valid</div>
+                                            <div class="invalid-feedback">Invalid</div>
+                                        </div>
+                                    </div>
+                                    <!-- Email  -->
+                                    <div class="form-group">
+                                        <input type="email" class="form-control form-control-user" id="registerEmail"
+                                            placeholder="Email Address"
+                                            pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
+                                            maxlength="50" required>
+                                        <div class="valid-feedback">Valid</div>
+                                        <div class="invalid-feedback">Invalid</div>
+                                    </div>
+                                    <!-- Address And Date of Birth Group  -->
+                                    <div class="form-group row">
+                                        <div class="col-sm-6 mb-3 mb-sm-0">
+                                            <input type="text" class="form-control form-control-user"
+                                                id="registerAddress" pattern="^\d+\s[A-z]+\s[A-z]+$" minlength="6"
+                                                maxlength="80" placeholder="Address" required>
+                                            <div class="valid-feedback">Valid</div>
+                                            <div class="invalid-feedback">Invalid</div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <input type="date" max="1998-01-02" min="1960-01-02" class=" form-control
+                                                        form-control-user" id="registerDob" placeholder="Date of birth"
+                                                required>
+                                            <div class="valid-feedback">Valid</div>
+                                            <div class="invalid-feedback">Invalid</div>
+                                        </div>
+                                    </div>
+                                    <!-- Submit Button -->
+                                    <button type="submit"  action="mailto:name@rapidtables.com?subject=hello&body="
+                                        class="btn btn-user btn-block btn-warning">
+                                        Register Account
+                                    </button>
+                                </form>
+                                <hr>
+                                <div class="text-center">
+                                    <a id="registerLink" class="small btn btn-link">Already have an account? Login!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- End of Container -->
+
+    <!-- jquery v3 cdn -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <!-- popper js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.3/umd/popper.min.js"
+        integrity="sha512-53CQcu9ciJDlqhK7UD8dZZ+TF2PFGZrOngEYM/8qucuQba+a+BXOIRsp9PoMNJI3ZeLMVNIxIfZLbG/CdHI5PA=="
+        crossorigin="anonymous"></script>
+    <!-- bootstrap js cdn -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- sb admin 2 js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-sb-admin-2/4.1.3/js/sb-admin-2.min.js"
+        integrity="sha512-COtY6/Rv4GyQdDShOyay/0YI4ePJ7QeKwtJIOCQ3RNE32WOPI4IYxq6Iz5JWcQpnylt/20KBvqEROZTEj/Hopw=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"
+        integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ=="
+        crossorigin="anonymous"></script>
+    <script src="model/employee.js"></script>
+    <script src="resource/employee.json"></script>
+    <script src="js/home.js"></script>
+</body>
+
+</html>
