@@ -1,0 +1,160 @@
+[
+  {
+    "date": "1/6/2021",
+    "attends": [
+      {
+        "code": 121212,
+        "name": "Mohamed",
+        "arrivedAt": { "hour": 8, "minute": 19 }
+      },
+      {
+        "code": 101010,
+        "name": "dina",
+        "arrivedAt": { "hour": 8, "minute": 40 }
+      },
+      {
+        "code": 111111,
+        "name": "Tomas",
+        "arrivedAt": { "hour": 9, "minute": 20 }
+      },
+      {
+        "code": 954984,
+        "name": "Aya",
+        "arrivedAt": { "hour": 9, "minute": 20 }
+      },
+      {
+        "code": 204228,
+        "name": "Molan",
+        "arrivedAt": { "hour": 9, "minute": 29 }
+      }
+    ],
+    "absent": [
+      { "code": 536832, "name": "Esraa", "arrivedAt": "absent" },
+      { "code": 470599, "name": "jony", "arrivedAt": "absent" },
+      { "code": 665029, "name": "Nada", "arrivedAt": "absent" },
+      { "code": 455330, "name": "Ted", "arrivedAt": "absent" },
+      { "code": 216174, "name": "Serag", "arrivedAt": "absent" }
+    ],
+    "excuse": [
+      {
+        "code": "204228",
+        "name": "Molan",
+        "time": { "hour": 12, "minute": 27 }
+      }
+    ]
+  },
+
+  {
+    "date": "1/7/2021",
+    "attends": [
+      {
+        "code": 121212,
+        "name": "Mohamed",
+        "arrivedAt": { "hour": 8, "minute": 19 }
+      },
+      {
+        "code": 101010,
+        "name": "dina",
+        "arrivedAt": { "hour": 8, "minute": 40 }
+      },
+      {
+        "code": 111111,
+        "name": "Tomas",
+        "arrivedAt": { "hour": 9, "minute": 12 }
+      },
+      {
+        "code": 954984,
+        "name": "Aya",
+        "arrivedAt": { "hour": 9, "minute": 20 }
+      },
+      {
+        "code": 204228,
+        "name": "Molan",
+        "arrivedAt": { "hour": 9, "minute": 29 }
+      },
+      {
+        "code": 536832,
+        "name": "Esraa",
+        "arrivedAt": { "hour": 9, "minute": 59 }
+      }
+    ],
+    "absent": [
+      { "code": 470599, "name": "jony", "arrivedAt": "absent" },
+      { "code": 665029, "name": "Nada", "arrivedAt": "absent" },
+      { "code": 455330, "name": "Ted", "arrivedAt": "absent" },
+      { "code": 216174, "name": "Serag", "arrivedAt": "absent" }
+    ],
+    "excuse": [
+      {
+        "code": "204228",
+        "name": "Molan",
+        "time": { "hour": 12, "minute": 27 }
+      }
+    ]
+  },
+  {
+    "date": "1/8/2021",
+    "attends": [
+      {
+        "code": 121212,
+        "name": "Mohamed",
+        "arrivedAt": { "hour": 8, "minute": 19 }
+      },
+      {
+        "code": 101010,
+        "name": "dina",
+        "arrivedAt": { "hour": 8, "minute": 40 }
+      },
+
+      {
+        "code": 204228,
+        "name": "Molan",
+        "arrivedAt": { "hour": 9, "minute": 29 }
+      },
+      {
+        "code": 536832,
+        "name": "Esraa",
+        "arrivedAt": { "hour": 9, "minute": 50 }
+      },
+      {
+        "code": 470599,
+        "name": "jony",
+        "arrivedAt": { "hour": 9, "minute": 54 }
+      },
+      {
+        "code": 665029,
+        "name": "Nada",
+        "arrivedAt": { "hour": 9, "minute": 58 }
+      }
+    ],
+    "absent": [
+      {
+        "code": 216174,
+        "name": "Serag",
+        "arrivedAt": "absent"
+      },
+      {
+        "code": 111111,
+        "name": "Tomas",
+        "arrivedAt": "absent"
+      },
+      {
+        "code": 954984,
+        "name": "Aya",
+        "arrivedAt": "absent"
+      }
+    ],
+    "excuse": [
+      {
+        "code": "204228",
+        "name": "Molan",
+        "time": { "hour": 12, "minute": 27 }
+      },
+      {
+        "code": 455330,
+        "name": "Ted",
+        "time": { "hour": 12, "minute": 27 }
+      }
+    ]
+  }
+]

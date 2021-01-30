@@ -1,0 +1,61 @@
+body {
+  user-select: none;
+}
+
+.sidebar .nav-item .nav-link span,
+.sidebar .nav-item .nav-link i {
+  font-size: 2ex;
+}
+
+#info {
+  text-align: center;
+}
+
+#dailey-report,
+#monthely-report {
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+#attends-form,
+#excuse-form {
+  width: 70%;
+}
+
+#attends-card,
+#excuse-card {
+  border-radius: 2em;
+}
+
+#attends-card {
+  background-color: #16c79a;
+}
+
+#excuse-card {
+  background-color: #f3c623;
+}
+
+#attendsButton {
+  background-color: #f3c623;
+}
+
+#excuseButton {
+  background-color: #16c79a;
+}
+
+.dropdown .dropdown-menu .dropdown-header {
+  background-color: #28df99;
+}
+
+#tableCard,
+#dailey-report,
+#monthely-report,
+#attends-card,
+#addEmployeeCard,
+#excuse-card,
+#errorMsg {
+  display: none;
+}
+
+option {
+  cursor: pointer;
+}
