@@ -575,10 +575,3 @@ function createNewMonthlyReport() {
 }
 
 //////// copyright for M_Mustafa //////////////////////////////////////////////////////////////////
-$("#takeRepo").on("click", () => {
-  createDaileyReport(attendsList);
-});
-
-$("#monthely").on("click", () => {
-  creatMonthelyReport();
-});
